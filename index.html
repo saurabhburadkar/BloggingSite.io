@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blogsite</title>
+	<style >
+	
+* {box-sizing: border-box}
+body {font-family: candy, sans-serif; margin:0;background-image: linear-gradient(to right, #D4145A , #FBB03B);}
+
+.maindiv{
+	
+	background-image: linear-gradient(to right, #D4145A , #FBB03B);
+	position: relative;
+	
+	width: 500px;
+	top: 0;
+	left: 0;
+	
+	text-align: left;
+	padding:0;
+	width: 100%;
+	height: 12%;
+
+
+
+}
+
+.logodiv{
+	color: white;
+	
+	display: inline-flex;
+	width: 90%;
+}
+
+#logo{
+	padding: 2px 10px;
+	border: none;
+	border-radius: 5px;
+	margin: 10px 40px;
+	font-family: Harrington;
+	font-weight: bold;
+	font-size: 30px;
+	background-image: linear-gradient(to right, #D4145A , #FBB03B);
+	box-shadow: 0 12px 14px rgba(0,0,0,0.2);
+}
+
+#menu:hover{
+	color: white;
+	background: #fc0384;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+#menu{
+	padding: 22px 30px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+/**************************************************************************/
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 80%;
+  height: 20%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+
+img:hover{
+
+	padding: 5px;
+	border-radius: 5px;
+	transition:  0.3s;
+
+}
+
+	</style>
+</head>
+<body>
+<div class="maindiv">
+		<div class="logodiv">
+			<p id="logo">Blogging site</p>
+			<a href="#" id="menu">Home</a>
+			<a href="#" id="menu">Nation</a>
+			<a href="#" id="menu">Sports</a>
+			<a href="#" id="menu">Politic</a>
+			<a href="#" id="menu">Entertainment</a>
+			<a href="#" id="menu">Search</a>
+			<a href="#" id="menu">Contact Us</a>
+
+		</div>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Most viewed Posts</h2>
+    <h5>Most expensive watch</h5>
+    <img src="n1.jpg">
+    <p>The above watch is most expensive watch in the decades. the price is very high....</p>
+    <h3>Top Stories</h3>
+    <p>City news are below....</p>
+    <img src="n2.jpg">
+    <img src="n3.jpg">
+    <img src="n4.jpg">
+    
+  </div>
+  <div class="main">
+    <h2>Upcomming New movies list</h2>
+    <h5>India, Dec 12, 2020</h5>
+    <img src="n5.jpg">
+    <p>Assassia...the movie</p>
+    <p>During the ninth century, a general's young daughter is kidnapped and trained to become an exceptional assassin. When she doesn't execute a mission, she is ordered to kill her betrothed, forcing her to choose between love, family and the assassins.</p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <img src="n6.jpg">
+    <p>Tesla</p>
+    <p>Tesla is a 2020 American biographical drama film written and directed by Michael Almereyda. It stars Ethan Hawke as Nikola Tesla. ... The film had its world premiere at the Sundance Film Festival on January 27, 2020, and was released in selected theaters and via Premium VOD on August 21, 2020, by IFC Films.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+<div class="maindiv">
+    <div class="logodiv">
+      <p id="logo">Blogging site</p>
+      <p>@Powered by Blogging site</p>    
+
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>
